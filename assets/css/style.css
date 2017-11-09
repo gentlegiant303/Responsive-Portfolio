@@ -162,3 +162,130 @@ h4 {
   font-size: 20px;
   text-align:center;
 }
+
+@media only screen and (max-width:980px) {
+  .container2 {
+    width:300px;
+    margin-left:40px;
+  }
+
+.portfolio {
+  width:300px;
+}
+
+  .Picture {
+  float: both;
+  clear:both;
+  width: 300px;
+ }
+
+p {
+  float: left;
+}
+
+.links {
+  margin-left: 50px;
+}
+
+ .container {
+   width: 960px;
+ }
+
+ .container3 {
+   margin-left: 150px;
+   width: 200px;
+ }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+.about {
+  width: 550px;
+}
+
+  .Picture {
+    float:left;
+    clear:none;
+  }
+
+.portfolio{
+  width: 550px;
+}
+
+p {
+  float:none;
+  width: 550px;
+}
+
+  .container2 {
+    width: 550px;
+    margin-left:0px;
+  }
+
+  .links {
+    margin-left:10px;
+  }
+
+  .container3 {
+    width:550px;
+    margin-left:0px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+ header {
+   position:static;
+   width: auto;
+   height: 75px;
+ }
+
+ h1 {
+   width: 100%;
+   text-align: center;
+ }
+
+ .name {
+   float: none;
+   clear:both;
+ }
+
+.links {
+  margin-bottom:10px;
+}
+
+.banner {
+  width: 550px;
+}
+
+.image2 {
+width: 450px;
+}
+
+.image3 {
+  width:450px;
+}
+
+.center-text {
+  width:450px;
+}
+
+ .links {
+   background-color: white;
+   width: 80%;
+   float: left;
+   margin-left:75px;
+ }
+
+ .Picture {
+   float: left;
+   clear:both;
+ }
+
+ p {
+   float: left;
+ }
+}
